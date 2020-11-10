@@ -3,6 +3,7 @@ import Navbar from './navbar/Navbar';
 import FormField from './formfield/FormField';
 import Signup from './signup/Signup';
 import CoolButton from './coolbutton/CoolButton';
+import Message from './message/Message';
 import 'bulma/css/bulma.css';
 
 //<Navbar/> for Iteration 1
@@ -22,6 +23,9 @@ const App = () => {
       <FormField label="Email" type="email" placeholder="e.g. alexsmith@gmail.com"/>
       <FormField label="Password" type="password" placeholder="********"/>
       <CoolButton className="button is-small is-success" buttonName="Submit"/>
+      <Message messageTitle='Hello World' messageDescription= "Lorem ipsum dolor sit amet, consectetur adipiscing elit. " 
+        messageStrong="Pellentesque risus mi"
+      />
     </div>
   );
 };
